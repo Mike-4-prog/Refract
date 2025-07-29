@@ -18,47 +18,48 @@ Refract is a **React-inspired JavaScript framework** designed to provide technic
 
 This fictional project mimics a real-world developer ecosystem using ideas like **refractions**, **lenses**, **optics**, and **effects** to simulate complexity.
 
----
-
 ## 🗂️ Documentation Structure
 
 The documentation is organized as follows:
+## 📁 Documentation Structure
 
+The documentation is organized as follows:
+
+```txt
 /docs
 ├── Introduction
 ├── Getting Started
 ├── Core Concepts
-│ ├── Refractions
-│ ├── Lenses
-│ ├── Optics
-│ ├── Components
-│ └── Effects
+│   ├── Refractions
+│   ├── Lenses
+│   ├── Optics
+│   ├── Components
+│   └── Effects
 ├── API Reference
-│ ├── createComponent
-│ ├── createApp
-│ ├── useRefraction
-│ ├── useEffect
-│ ├── useFlash
-│ ├── useOptic
+│   ├── createComponent
+│   ├── createApp
+│   ├── useRefraction
+│   ├── useEffect
+│   ├── useFlash
+│   └── useOptic
 ├── Tutorials
-│ ├── Build a Counter App
-│ ├── Global Theme Switcher
-│ ├── Mouse Tracker with Optics
+│   ├── Build a Counter App
+│   ├── Global Theme Switcher
+│   └── Mouse Tracker with Optics
 ├── Advanced Guides
-│ ├── Side Effects Management
-│ ├── Optical Composition Patterns
-│ ├── Performance Optimization
-│ └── TypeScript Support
+│   ├── Side Effects Management
+│   ├── Optical Composition Patterns
+│   ├── Performance Optimization
+│   └── TypeScript Support
 ├── Extending Refract
-│ ├── Overview
-│ ├── Creating Plugins
-│ ├── Building a Router
-│ ├── Simulating a Compiler
+│   ├── Overview
+│   ├── Creating Plugins
+│   ├── Building a Router
+│   └── Simulating a Compiler
 ├── Contributing Guide
 ├── FAQ
 └── Glossary
-
----
+```
 
 ## 🌐 Deployment
 
@@ -66,16 +67,12 @@ This documentation site is intended to be **deployed using GitHub Pages** for pu
 
 > 🔧 Deployment setup is currently in progress. The live URL will be shared once the site is published.
 
-
----
 ## 🛠️ Tech Stack
 
 - **Static Site Generator:** [Docusaurus](https://docusaurus.io)
 - **Version Control:** Git + GitHub
 - **Language:** Markdown & MDX
 - **Hosting:** GitHub Pages
-
----
 
 ## 🙋‍♂️ About This Fork
 
@@ -85,8 +82,6 @@ This is **my individual documentation project** built as part of TWMP to:
 - Simulate real documentation workflows
 - Showcase information architecture & user guide design
 - Build and deploy a documentation site using Docusaurus
-
----
 
 ## 🤝 Contributing
 
@@ -100,21 +95,15 @@ Contributions are welcome! Please follow these guidelines:
 
 > 🔧 See the full [Contributing Guide](docs/contributing.md) for details.
 
----
-
 ## 📜 Code of Conduct
 
 All contributors are expected to adhere to the [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/). This project maintains a welcoming and inclusive environment for all.
 
 By participating, you agree to uphold this code and foster a respectful documentation community.
 
----
-
 ## 📚 License
 
 This project is licensed under the **Apache 2.0 License**. See the [LICENSE](LICENSE) file for more info.
-
----
 
 ## 🧠 Acknowledgements
 
