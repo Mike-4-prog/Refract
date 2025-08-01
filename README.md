@@ -24,42 +24,45 @@ The documentation is organized as follows:
 ## 📁 Documentation Structure
 
 The documentation is organized as follows:
-
 ```txt
-/docs
-├── Introduction
-├── Getting Started
-├── Core Concepts
-│   ├── Refractions
-│   ├── Lenses
-│   ├── Optics
-│   ├── Components
-│   └── Effects
-├── API Reference
-│   ├── createComponent
-│   ├── createApp
-│   ├── useRefraction
-│   ├── useEffect
-│   ├── useFlash
-│   └── useOptic
-├── Tutorials
-│   ├── Build a Counter App
-│   ├── Global Theme Switcher
-│   └── Mouse Tracker with Optics
-├── Advanced Guides
-│   ├── Side Effects Management
-│   ├── Optical Composition Patterns
-│   ├── Performance Optimization
-│   └── TypeScript Support
-├── Extending Refract
-│   ├── Overview
-│   ├── Creating Plugins
-│   ├── Building a Router
-│   └── Simulating a Compiler
-├── Contributing Guide
-├── FAQ
-└── Glossary
+docs/
+├── getting-started/
+│   ├── introduction.md
+│   └── quick-start.md
+├── core-concepts/
+│   ├── refractions.md
+│   ├── lenses.md
+│   ├── optics.md
+│   ├── components.md
+│   └── effects.md
+├── api-reference/
+│   ├── create-app.md
+│   ├── create-component.md
+│   ├── use-refraction.md
+│   ├── use-effect.md
+│   ├── use-flash.md
+│   └── use-optic.md
+├── tutorials/
+│   ├── build-a-counter-app.md
+│   ├── global-theme-switcher.md
+│   └── mouse-tracker-with-optics.md
+├── advanced-guides/
+│   ├── side-effects-management.md
+│   ├── optical-composition-patterns.md
+│   ├── performance-optimization.md
+│   └── typescript-support.md
+├── extending-refract/
+│   ├── overview.md
+│   ├── plugins.md
+│   ├── router.md
+│   └── compiler.md
+├── contributing-guide.md
+├── faq.md
+└── glossary.md
 ```
+
+
+
 
 ## 🌐 Deployment
 
