@@ -1,4 +1,4 @@
-# 📘 Refract Documentation (Capstone Project by Michael Uzukwu)
+## 📘 Refract Documentation (Capstone Project by Michael Uzukwu)
 
 Welcome! This repository contains **my customized documentation site** for [Refract](https://github.com/TWMP-Refract/refract), a fictional JavaScript UI framework created by the Technical Writers Mentorship Program (TWMP).
 
@@ -19,51 +19,41 @@ Refract is a **React-inspired JavaScript framework** designed to provide technic
 This fictional project mimics a real-world developer ecosystem using ideas like **refractions**, **lenses**, **optics**, and **effects** to simulate complexity.
 
 ## 🗂️ Documentation Structure
-
-The documentation is organized as follows:
-## 📁 Documentation Structure
-
 The documentation is organized as follows:
 ```txt
 docs/
 ├── getting-started/
-│   ├── introduction.md
-│   └── quick-start.md
+│   ├── introduction.md          # High-level overview
+│   └── quick-start.md          # Installation + first app
 ├── core-concepts/
-│   ├── refractions.md
-│   ├── lenses.md
-│   ├── optics.md
-│   ├── components.md
-│   └── effects.md
+│   ├── refractions.md          # Reactive state units
+│   ├── lenses.md               # Scoped state/effects
+│   ├── optics.md               # Reusable logic patterns
+│   └── components.md           # Component creation
 ├── api-reference/
-│   ├── create-app.md
-│   ├── create-component.md
-│   ├── use-refraction.md
-│   ├── use-effect.md
-│   ├── use-flash.md
-│   └── use-optic.md
+│   ├── create-app.md           # App initialization
+│   ├── create-component.md     # Component factory
+│   ├── reactivity-api.md       # Merged: useRefraction + useOptic
+│   └── lifecycle-api.md        # Merged: useEffect + useFlash
 ├── tutorials/
-│   ├── build-a-counter-app.md
-│   ├── global-theme-switcher.md
-│   └── mouse-tracker-with-optics.md
+│   ├── build-a-counter-app.md       # 1. Basics (refractions)
+│   ├── mouse-tracker-with-optics.md # 2. Intermediate (optics)
+│   └── global-theme-switcher.md     # 3. Advanced (effects/global state)
 ├── advanced-guides/
-│   ├── side-effects-management.md
+│   ├── side-effects-management.md   # Now includes content from effects.md
 │   ├── optical-composition-patterns.md
 │   ├── performance-optimization.md
 │   └── typescript-support.md
-├── extending-refract/
+├── extending-refract/            # Kept as-is (critical for extensibility)
 │   ├── overview.md
 │   ├── plugins.md
 │   ├── router.md
 │   └── compiler.md
-├── contributing-guide.md
-├── faq.md
-└── glossary.md
+├── contributing-guide.md         # Unchanged (standalone)
+├── faq.md                        # Unchanged (standalone)
+└── glossary.md                   # Unchanged (standalone)
+
 ```
-
-
-
-
 ## 🌐 Deployment
 
 This documentation site is intended to be **deployed using GitHub Pages** for public access.
