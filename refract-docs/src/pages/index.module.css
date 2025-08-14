@@ -1,23 +1,126 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
+/* index.module.css */
 
 .heroBanner {
-  padding: 4rem 0;
+  background: linear-gradient(to right, #000000, #03dbfc);
+  color: white;
+  padding: 2rem 1rem;
   text-align: center;
-  position: relative;
-  overflow: hidden;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+.heroLogo {
+  width: 3rem;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+
+.heroTitle {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 2.5rem 0;
+  color: #ffffff;
+}
+
+.heroSubtitle {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #e0f7fa;
 }
 
 .buttons {
+  margin-top: 1rem;
+}
+
+.button--primary {
+  background-color: #03dbfc;
+  color: #000000;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.button--primary:hover {
+  background-color: #02c6e4;
+}
+
+.main {
+  background-color: #ffffff;
+  padding: 4rem 1rem;
+}
+
+.features {
+  text-align: center;
+}
+
+.featureGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.feature {
+  background-color: #f4faff;
+  border: 1px solid #e0f7fa;
+  border-radius: 10px;
+  padding: 2rem;
+  max-width: 280px;
+  transition: transform 0.2s;
+}
+
+.features {
+  padding: 2rem 0; /* Less vertical space */
+}
+
+
+.feature:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(3, 219, 252, 0.3);
+}
+
+.feature h3 {
+  color: #000000;
+  margin-top: 1rem;
+  font-size: 1.25rem;
+}
+
+.feature p {
+  color: #333;
+}
+
+.featureIcon {
+  font-size: 3rem;
+  color: #03dbfc;
+}
+
+.titleRow {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+   text-align: center;
+  margin-bottom: 1rem;
 }
+
+.inlineLogo {
+  width: 40px;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
