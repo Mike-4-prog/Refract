@@ -24,7 +24,17 @@ const sidebars = {
         'core-concepts/components',
       ],
     },
-    {
+   {
+      type: 'category',
+      label: 'Tutorials',
+      collapsible: true,
+      collapsed: true,
+      items: [
+        'tutorials/build-a-counter-app',
+        'tutorials/mouse-tracker-with-optics',
+      ],
+    },
+     {
       type: 'category',
       label: 'API Reference',
       collapsible: true,
@@ -34,16 +44,6 @@ const sidebars = {
         'api-reference/create-component',
         'api-reference/reactivity-api',
         'api-reference/lifecycle-api',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Tutorials',
-      collapsible: true,
-      collapsed: true,
-      items: [
-        'tutorials/build-a-counter-app',
-        'tutorials/mouse-tracker-with-optics',
       ],
     },
     {

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Refract Counter Demo</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      background-color: #f7f7f7;
+    }
+    button {
+      cursor: pointer;
+      transition: transform 0.1s;
+    }
+    button:hover {
+      transform: scale(1.05);
+    }
+    button:active {
+      transform: scale(0.98);
+    }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <script type="module" src="./counter-app.js"></script>
+</body>
+</html>

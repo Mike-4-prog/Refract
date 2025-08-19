@@ -11,7 +11,10 @@
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
-    "write-heading-ids": "docusaurus write-heading-ids"
+    "write-heading-ids": "docusaurus write-heading-ids",
+    "demo:dev": "vite serve src/demo --port 3001",
+    "demo:build": "vite build src/demo --outDir dist/demo",
+    "demo:preview": "vite preview dist/demo --port 3001"
   },
   "dependencies": {
     "@docusaurus/core": "3.8.1",
@@ -25,7 +28,8 @@
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.8.1",
-    "@docusaurus/types": "3.8.1"
+    "@docusaurus/types": "3.8.1",
+    "vite": "^5.0.0"
   },
   "browserslist": {
     "production": [
@@ -41,5 +45,13 @@
   },
   "engines": {
     "node": ">=18.0"
-  }
+  },
+  "description": "This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.",
+  "main": "docusaurus.config.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

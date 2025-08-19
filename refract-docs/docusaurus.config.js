@@ -8,23 +8,31 @@ const config = {
   tagline: 'Refract: The optics-based framework for reactive user interfaces.',
   favicon: 'img/favicon.png',
 
-  future: {
-    v4: true,
-  },
-
-  url: 'https://your-docusaurus-site.example.com',
+  // Required base configuration
+  url: 'https://refract.example.com',
   baseUrl: '/',
-
+  
   organizationName: 'Mike-4-prog',
   projectName: 'Refract',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
+  future: {
+    v4: true,
+  },
+
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
   },
+
+  scripts: [
+    {
+      src: '/js/refract-mock.js',
+      async: false,
+    },
+  ],
 
   presets: [
     [
@@ -33,6 +41,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          // Remove routeBasePath to maintain your existing docs structure
           editUrl: 'https://github.com/Mike-4-prog/Refract/edit/main/',
         },
         blog: {
@@ -42,9 +51,6 @@ const config = {
             xslt: true,
           },
           editUrl: 'https://github.com/Mike-4-prog/Refract/edit/main/blog/',
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -63,20 +69,18 @@ const config = {
           alt: 'Refract Logo',
           src: 'img/refract-logo.png',
         },
-     items: [
-  // Move all sidebar-generated items to the right
-  ...navbarFromSidebar.map(item => ({
-    ...item,
-    position: 'right',
-  })),
-  { to: '/blog', label: 'Blog', position: 'right' },
-  {
-    href: 'https://github.com/Mike-4-prog/Refract',
-    label: 'GitHub',
-    position: 'right',
-  },
-],
-
+        items: [
+          ...navbarFromSidebar.map(item => ({
+            ...item,
+            position: 'right',
+          })),
+          { to: '/blog', label: 'Blog', position: 'right' },
+          {
+            href: 'https://github.com/Mike-4-prog/Refract',
+            label: 'GitHub',
+            position: 'right',
+          },
+        ],
       },
       footer: {
         style: 'dark',
@@ -88,6 +92,14 @@ const config = {
                 label: 'Getting Started',
                 to: '/docs/getting-started/introduction',
               },
+              {
+                label: 'Counter Tutorial',
+                to: '/docs/tutorials/build-a-counter-app',
+              },
+              {
+                label: 'API Reference',
+                to: '/docs/api-reference/create-app',
+              },
             ],
           },
           {
@@ -95,7 +107,11 @@ const config = {
             items: [
               {
                 label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                href: 'https://stackoverflow.com/questions/tagged/refract',
+              },
+              {
+                label: 'Discord',
+                href: 'https://discord.gg/example',
               },
             ],
           },
@@ -118,9 +134,9 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+        additionalLanguages: ['javascript', 'typescript', 'jsx'],
       },
     }),
 };
 
 export default config;
-
