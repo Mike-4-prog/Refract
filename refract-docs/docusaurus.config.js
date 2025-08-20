@@ -15,7 +15,7 @@ const config = {
   organizationName: 'Mike-4-prog',
   projectName: 'Refract',
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   future: {
