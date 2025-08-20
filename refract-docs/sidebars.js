@@ -32,6 +32,7 @@ const sidebars = {
       items: [
         'tutorials/build-a-counter-app',
         'tutorials/mouse-tracker-with-optics',
+        'tutorials/global-theme-switcher',
       ],
     },
      {
