@@ -9,7 +9,7 @@ const config = {
   favicon: 'img/favicon.png',
 
   // Required base configuration
-  url: 'https://<your-netlify-site>.netlify.app', // 🔹 Replace with your actual Netlify URL
+  url: 'https://refract-stg.netlify.app',
   baseUrl: '/',
 
   organizationName: 'Mike-4-prog',
