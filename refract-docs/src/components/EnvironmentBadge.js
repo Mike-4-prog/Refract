@@ -1,18 +1,22 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
-// Detect environment based on branch (Netlify sets BRANCH env var)
 const getEnvironment = () => {
-  const branch = process.env.BRANCH || 'local';
-  if (branch === 'staging') return 'staging';
-  if (branch === 'main') return 'production';
+  if (typeof window === 'undefined') return 'local'; // SSR fallback
+  const hostname = window.location.hostname;
+  if (hostname.includes('-stg')) return 'staging';
+  if (hostname.includes('refract.netlify.app')) return 'production';
   return 'local';
 };
 
 export default function EnvironmentBadge() {
-  const env = getEnvironment();
+  const [env, setEnv] = useState('local');
   const [visible, setVisible] = useState(true);
 
-  if (env === 'local' || !visible) return null; // hide locally or if dismissed
+  useEffect(() => {
+    setEnv(getEnvironment());
+  }, []);
+
+  if (env === 'local' || !visible) return null;
 
   const styles = {
     container: {
@@ -27,7 +31,7 @@ export default function EnvironmentBadge() {
       top: '10px',
       right: '10px',
       zIndex: 9999,
-      backgroundColor: env === 'staging' ? '#f59e0b' : '#16a34a', // amber for staging, green for prod
+      backgroundColor: env === 'staging' ? '#f59e0b' : '#16a34a',
       color: 'white',
       boxShadow: '0 2px 6px rgba(0,0,0,0.2)',
       cursor: env === 'staging' ? 'pointer' : 'default',
@@ -51,3 +55,4 @@ export default function EnvironmentBadge() {
     </div>
   );
 }
+
