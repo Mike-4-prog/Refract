@@ -9,9 +9,9 @@ const config = {
   favicon: 'img/favicon.png',
 
   // Required base configuration
-  url: 'https://refract.example.com',
+  url: 'https://<your-netlify-site>.netlify.app', // 🔹 Replace with your actual Netlify URL
   baseUrl: '/',
-  
+
   organizationName: 'Mike-4-prog',
   projectName: 'Refract',
 
@@ -41,7 +41,6 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Remove routeBasePath to maintain your existing docs structure
           editUrl: 'https://github.com/Mike-4-prog/Refract/edit/main/',
         },
         blog: {
@@ -70,7 +69,7 @@ const config = {
           src: 'img/refract-logo.png',
         },
         items: [
-          ...navbarFromSidebar.map(item => ({
+          ...navbarFromSidebar.map((item) => ({
             ...item,
             position: 'right',
           })),
@@ -88,18 +87,9 @@ const config = {
           {
             title: 'Docs',
             items: [
-              {
-                label: 'Getting Started',
-                to: '/docs/getting-started/introduction',
-              },
-              {
-                label: 'Counter Tutorial',
-                to: '/docs/tutorials/build-a-counter-app',
-              },
-              {
-                label: 'API Reference',
-                to: '/docs/api-reference/create-app',
-              },
+              { label: 'Getting Started', to: '/docs/getting-started/introduction' },
+              { label: 'Counter Tutorial', to: '/docs/tutorials/build-a-counter-app' },
+              { label: 'API Reference', to: '/docs/api-reference/create-app' },
             ],
           },
           {
@@ -118,14 +108,8 @@ const config = {
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/Mike-4-prog/Refract',
-              },
+              { label: 'Blog', to: '/blog' },
+              { label: 'GitHub', href: 'https://github.com/Mike-4-prog/Refract' },
             ],
           },
         ],
