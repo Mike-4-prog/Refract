@@ -86,7 +86,7 @@ Contributions are welcome! Please follow these guidelines:
 4. Ensure consistency in tone, grammar, and formatting.
 5. Submit a Pull Request for review.
 
-> 🔧 See the full [Contributing Guide](docs/contributing.md) for details.
+> 🔧 See the full [Contributing Guide](http://localhost:3000/docs/contributing-guide) for details.
 
 ## 📜 Code of Conduct
 
