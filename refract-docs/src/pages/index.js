@@ -1,8 +1,12 @@
 import React from 'react';
 import clsx from 'clsx';
 import Layout from '@theme/Layout';
+import Link from '@docusaurus/Link';
 import styles from './index.module.css';
 import { Icon } from '@iconify/react';
+
+// Import your illustration
+import refractIllustration from '@site/static/img/refract-illustration.png';
 
 const features = [
   {
@@ -45,55 +49,32 @@ function Feature({ icon, title, description }) {
 export default function Home() {
   return (
     <Layout
-      title="Refract: Reactive UI, Refined"
-      description="Refract: The optics-based framework for building reactive user interfaces."
+      title="Refract Documentation"
+      description="Documentation for the Refract framework"
     >
-      <header
-        className={clsx(styles.heroBanner)}
-        style={{
-          background: 'linear-gradient(90deg, #000000 0%, #00bcd4 100%)',
-          padding: '3rem 0 2rem 0', // smaller padding like old one
-          textAlign: 'center',
-        }}
-      >
-        <div className="container text--center">
-          {/* Logo */}
-          <img
-            src="/img/refract-logo.png"
-            alt="Refract logo"
-            className={styles.heroLogo}
-            style={{ height: '64px', marginBottom: '1rem' }}
-          />
-
-          {/* Title */}
-          <h1 className="hero__title" style={{ color: 'white' }}>
-            Refract
-          </h1>
-
-          {/* Tagline */}
-          <p className="hero__subtitle" style={{ color: 'white' }}>
-            The optics-based framework for building reactive user interfaces.
+      <header className={clsx('hero hero--primary', styles.heroBanner)}>
+        <div className={styles.heroContent}>
+          <h1 className={styles.heroTitle}>Welcome to Refract</h1>
+          <p className={styles.heroSubtitle}>
+            Build with clarity, refactor with confidence.
           </p>
-
-          {/* Single Button */}
-          <div className="heroButtons" style={{ marginTop: '1.5rem' }}>
-            <a
-              className="button button--lg"
-              href="/docs/getting-started/introduction"
-              style={{
-                backgroundColor: 'white',
-                color: 'black',
-                border: 'none',
-              }}
-            >
+          <div className={styles.buttons}>
+            <Link className={styles.buttonPrimary} to="/docs/getting-started/introduction">
               Get Started
-            </a>
+            </Link>
           </div>
         </div>
+
+        {/* Decorative illustration (moved to left) */}
+        <img
+          src={refractIllustration}
+          alt="Refract illustration"
+          className={styles.heroImage}
+        />
       </header>
 
       {features.length > 0 && (
-        <main style={{ marginTop: '-2rem' /* pulls features upward */ }}>
+        <main>
           <section className={styles.features}>
             <div className="container">
               <div className="row">
@@ -108,6 +89,11 @@ export default function Home() {
     </Layout>
   );
 }
+
+
+
+
+
 
 
 

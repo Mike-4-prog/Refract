@@ -55,6 +55,8 @@ const sidebars = {
       items: [
         'advanced-guides/side-effects-management',
         'advanced-guides/optical-composition-patterns',
+        'advanced-guides/performance-optimization',
+        'advanced-guides/typescript-support',
       ],
     },
     {
@@ -65,6 +67,8 @@ const sidebars = {
       items: [
         'extending-refract/overview',
         'extending-refract/plugins',
+        'extending-refract/router',
+        'extending-refract/compiler',
       ],
     },
     'contributing-guide',

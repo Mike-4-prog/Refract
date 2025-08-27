@@ -76,8 +76,8 @@ Managing side effects can get tricky in larger applications. Here are some tips 
 4. **Isolate heavy operations**  
    Offload long-running tasks to background workers or asynchronous functions to avoid blocking the UI.
 
-:::note
-For performance-focused apps, refer to our **[Performance Optimization guide](links here)**, which includes tips for efficient effect management.
+:::info
+For performance-focused apps, refer to our **[Performance Optimization guide](http://localhost:3000/docs/advanced-guides/optical-composition-patterns)**, which includes tips for efficient effect management.
 :::
 
 ### Composing Effects

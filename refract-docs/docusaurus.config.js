@@ -67,8 +67,7 @@ const config = {
         ...navbarFromSidebar.map((item) => ({ ...item, position: 'right' })),
         { to: '/blog', label: 'Blog', position: 'right' },
         { href: 'https://github.com/Mike-4-prog/Refract', label: 'GitHub', position: 'right' },
-        // Placeholder for environment badge (React component)
-        { type: 'custom-badge', position: 'right' },
+        // Removed environment badge item to prevent crash
       ],
     },
     footer: {
