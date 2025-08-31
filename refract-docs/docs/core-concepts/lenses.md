@@ -4,9 +4,10 @@ title: Lenses
 slug: /core-concepts/lenses
 ---
 
-In **Refract**, a **lens** is a tool for focusing on a *specific part* of a larger state, letting you read and update that slice without touching unrelated data.
+In **Refract**, a **lens** is a tool for focusing on a *specific part* of a larger state, letting you read and update that slice without touching unrelated data. 
 
-If a **refraction** is like giving someone a telescope to view the whole sky, a **lens** is the dial you turn to zoom in on one particular constellation.
+If a **refraction** is like giving someone a telescope to view the whole sky, a **lens** is the dial you turn to zoom in on one particular
+constellation.
 
 ### The Need For Lenses
 

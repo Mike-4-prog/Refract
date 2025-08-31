@@ -9,7 +9,7 @@ Welcome to the big leagues! If you've mastered [refractions with our counter](/d
 
 In this tutorial, we'll build a professional-grade theme switcher that persists user preferences across your entire application. This isn't just a toggle button - it's a complete system that demonstrates Refract's most powerful features working in harmony.
 
-> 🎯 **What You'll Build**
+> **What You'll Build**
 > - Global theme state management
 > - Local storage persistence
 > - System preference detection
@@ -37,7 +37,7 @@ graph TB
 - Basic CSS variables knowledge
 - Familiarity with [browser storage APIs](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
 
-> 🚨 **Advanced Alert**
+>  **Advanced Alert**
 > This tutorial uses several advanced Refract concepts. If you feel lost, check out our [Side Effects Management guide](/docs/advanced-guides/side-effects-management) first.
 
 #### Step 1: Defining Our Theme Architecture
@@ -104,7 +104,7 @@ export const useThemeStore = createGlobalRefraction(() => {
 });
 ```
 
-> 💡 **Global Refractions Explained**
+>  **Global Refractions Explained**
 > Unlike regular refractions, `createGlobalRefraction` creates state that's shared across your entire application. Think of it as a reactive singleton that any component can access!
 
 #### Step 3: Adding Side Effects for Persistence
@@ -312,7 +312,7 @@ const App = createComponent(() => {
           alignItems: 'center',
           marginBottom: '3rem'
         }}>
-          <h1>🌓 Refract Theme Demo</h1>
+          <h1> Refract Theme Demo</h1>
           <ThemeSwitcher />
         </header>
         
@@ -322,11 +322,11 @@ const App = createComponent(() => {
             <h2>How It Works</h2>
             <p>This demo shows Refract's powerful global state management:</p>
             <ul>
-              <li>🌍 Global state with createGlobalRefraction</li>
-              <li>💾 Automatic localStorage persistence</li>
-              <li>🎨 CSS variable integration</li>
-              <li>⚡ System preference detection</li>
-              <li>🔗 Multi-component synchronization</li>
+              <li> Global state with createGlobalRefraction</li>
+              <li> Automatic localStorage persistence</li>
+              <li> CSS variable integration</li>
+              <li> System preference detection</li>
+              <li> Multi-component synchronization</li>
             </ul>
           </section>
         </main>
@@ -418,10 +418,9 @@ You've just built a professional global state management system! Here's where to
 
 Created an amazing theme system? The community would love to see it!
 
-- [Share on GitHub Discussions](https://github.com/your-org/refract/discussions)
+- [Share on GitHub Discussions](https://github.com/Mike-4-prog/Refract)
 - [Submit a theme plugin](/docs/extending-refract/plugins)
-- [Join our Discord community](https://discord.gg/refract)
 
-Remember: Great theme systems don't just switch colors - they create experiences. You've now got the power to build applications that adapt perfectly to every user's preferences! 🎨
+Remember: Great theme systems don't just switch colors - they create experiences. You've now got the power to build applications that adapt perfectly to every user's preferences! 
 
-*Spot an issue or have suggestions? [Help us improve this guide](https://github.com/your-org/refract/edit/main/docs/tutorials/global-theme-switcher.md)*
+*Spot an issue or have suggestions? [Help us improve this guide](https://github.com/Mike-4-prog/Refract/blob/main/refract-docs/docs/tutorials/global-theme-switcher.md)*

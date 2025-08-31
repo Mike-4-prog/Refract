@@ -286,6 +286,32 @@
   max-height: 40px; /* default is usually around 32px */
 }
 
+/* ===== Improve Light Mode Link Contrast ===== */
+[data-theme='light'] a {
+  color: #007b83; /* darker teal for readability */
+  font-weight: 500;
+  text-decoration: none;
+}
+
+[data-theme='light'] a:hover {
+  color: #005f63; /* slightly deeper hover */
+  text-decoration: underline;
+}
+
+/* Adjust sidebar active/selected link color */
+[data-theme='light'] .menu__link--active,
+[data-theme='light'] .menu__link:hover {
+  color: #005f63;
+  font-weight: 600;
+}
+
+/* Adjust heading highlight (like "Refract" keyword in docs) */
+[data-theme='light'] strong,
+[data-theme='light'] b {
+  color: #004f55;
+}
+
+
 /* ---------- end of file ---------- */
 
 

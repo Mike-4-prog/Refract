@@ -167,4 +167,4 @@ While Refract's reactivity is highly optimized, here are some tips to keep thing
 
 With these reactivity tools at your disposal, you're equipped to build dynamic, responsive interfaces that automatically stay in sync with your application state. The key is to start simple with `useRefraction` for local state, then graduate to `useOptic` as you need to share reactive logic across components. Remember - the more you leverage Refract's automatic dependency tracking, the less manual state management you'll need to handle.
 
-For more advanced patterns and optimizations, explore how these reactivity primitives work with [optical composition patterns](http://localhost:3000/docs/advanced-guides/optical-composition-patterns) and [performance optimization techniques](/advanced-guides/performance-optimization)(link needed).
+For more advanced patterns and optimizations, explore how these reactivity primitives work with [optical composition patterns](http://localhost:3000/docs/advanced-guides/optical-composition-patterns) and [performance optimization techniques](http://localhost:3000/docs/advanced-guides/performance-optimization).

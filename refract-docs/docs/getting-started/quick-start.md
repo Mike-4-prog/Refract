@@ -133,12 +133,12 @@ const Counter = createComponent(({ lens }) => {
 });
 ```
 :::tip
-✨ This demonstrates the power of Refract’s reactivity model — UI updates are declarative and automatic when state changes.
+ This demonstrates the power of Refract’s reactivity model — UI updates are declarative and automatic when state changes.
 :::
 
 Want to share your ideas or contribute? [Star us on GitHub](https://github.com/Mike-4-prog/Refract) and explore the codebase!
 
-🎉 You’re all set! Build something cool and refractive!
+ You’re all set! Build something cool and refractive!
 
 
 

@@ -9,7 +9,7 @@ sidebar_position: 2
 
 Welcome to your second Refract adventure! If you've completed our [counter app tutorial](/docs/tutorials/build-a-counter-app), you're ready to level up. Today, we're building a real-time mouse position tracker that demonstrates the power of **optics** - Refract's secret weapon for reusable reactive logic.
 
-> 🎯 **What You'll Build**
+> **What You'll Build**
 > - A live mouse position tracker
 > - Reusable optical patterns
 > - Smooth coordinate updates
@@ -33,7 +33,7 @@ D --> E[UI Rendering]
 - Understanding of [basic refractions](/docs/core-concepts/refractions)
 - Familiarity with JavaScript events
 
-> 📚 **New to Optics?**
+> **New to Optics?**
 > No worries! Check out our [Core Concepts guide](/docs/core-concepts/optics) for a gentle introduction before diving in.
 
 #### 1.  Setting Up the Foundation
@@ -80,7 +80,7 @@ const useMousePosition = () => {
 };
 ```
 
-> 💡 **Optical Insight**
+>  **Optical Insight**
 > Notice how we're returning both the state (`position`) and the behavior (`handlers`). This separation is what makes optics so powerful - they encapsulate both data and logic!
 
 #### 3. Integrating the Optical Pattern
@@ -131,7 +131,7 @@ return {
     <div className="tracker-container" {...handlers}>
       {/* Position display */}
       <div className="position-display">
-        <h3>🎯 Live Tracker</h3>
+        <h3> Live Tracker</h3>
         <p>X: {position.value.x}px</p>
         <p>Y: {position.value.y}px</p>
       </div>
@@ -191,7 +191,7 @@ export const useMousePosition = (options = {}) => {
 };
 ```
 
-> 🚀 **Optical Composition**
+>  **Optical Composition**
 > This pattern can now be easily composed with other optics. Imagine combining mouse position with [gesture detection](/docs/extending-refract/plugins) or [animation frameworks](/docs/advanced-guides/optical-composition-patterns)!
 
 #### Complete Implementation
@@ -228,7 +228,7 @@ const MouseTracker = createComponent(() => {
           boxShadow: 'var(--ifm-global-shadow-md)',
           zIndex: 10
         }}>
-          <h3 style={{ margin: '0 0 1rem 0' }}>🎯 Live Mouse Tracker</h3>
+          <h3 style={{ margin: '0 0 1rem 0' }}> Live Mouse Tracker</h3>
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
             <div>
               <strong>X Position</strong>
@@ -309,10 +309,9 @@ Ready to level up again? Here's where to go next:
 
 Built something amazing with optical patterns? Share it with our community! 
 
-- [Join our Discord](https://discord.gg/refract)
-- [Share on GitHub Discussions](https://github.com/your-org/refract/discussions)
+- [Share on GitHub Discussions](https://github.com/Mike-4-prog/Refract)
 - [Submit a plugin](/docs/extending-refract/plugins)
 
-Remember: Every complex application is built from simple optical patterns. You've just added a powerful tool to your Refract toolkit! 🛠️
+Remember: Every complex application is built from simple optical patterns. You've just added a powerful tool to your Refract toolkit! 
 
-*Found an issue? [Help us improve this guide](https://github.com/your-org/refract/edit/main/docs/tutorials/mouse-tracker-with-optics.md)*
+*Found an issue? [Help us improve this guide](https://github.com/Mike-4-prog/Refract/blob/main/refract-docs/docs/tutorials/mouse-tracker-with-optics.md)*

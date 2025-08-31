@@ -381,10 +381,10 @@ Ready to master optical composition? Dive deeper with:
 
 Share your amazing composition patterns with the community:
 
-- [Share on GitHub Discussions](https://github.com/your-org/refract/discussions)
+- [Share on GitHub Discussions](https://github.com/Mike-4-prog/Refract)
 - [Submit composition patterns](/docs/contributing-guide)
 
-Remember: Great composition isn't about complexity - it's about creating clear, maintainable relationships between your optics. Now go compose something beautiful! 🎼
+Remember: Great composition isn't about complexity - it's about creating clear, maintainable relationships between your optics. Now go compose something beautiful! 
 
 
 

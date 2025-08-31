@@ -6,13 +6,10 @@ slug: /core-concepts/refractions
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-If you've already read the [Introduction](/docs/getting-started/introduction), you know that **Refractions** are at the very core of how Refract thinks about state and reactivity.  
+If you've already read the [Introduction](/docs/getting-started/introduction), you know that **Refractions** are at the very core of how Refract thinks about state and reactivity.  They’re not just “variables that change.” They’re *streams of intent*, little beams of data and behavior that can bend, split, and merge as they flow through your application.
 
-They’re not just “variables that change.” They’re *streams of intent*, little beams of data and behavior that can bend, split, and merge as they flow through your application.
-
-Imagine a shaft of light passing through a prism:  
-It starts unified, but can be split into multiple colors, redirected, or even combined back together.  
-Refractions work the same way for your app’s state.
+Imagine a shaft of light passing through a prism:  It starts unified, but can be split into multiple
+colors, redirected, or even combined back together.  Refractions work the same way for your app’s state.
 
 ### Why Refractions
 
@@ -107,7 +104,7 @@ This is the flow aspect of the optical metaphor — data can be transformed and 
 When working with Refract, you’ll notice something:
 refractions aren’t always global — and that’s by design. Think of them like light beams in a room:
 
-1.**Local Refractions** – Created inside a component and live only while that component is mounted.
+1. **Local Refractions** – Created inside a component and live only while that component is mounted.
 #### When to use them:
 
 When the state is only relevant to that component.
@@ -141,7 +138,7 @@ function Counter() {
 
 - No other component can access it.
 
-2.**Global Refractions** – Defined once and shared across your entire app.
+2. **Global Refractions** – Defined once and shared across your entire app.
 **When to use them**:
 
 - For **shared state** that multiple components need to read or update.

@@ -103,6 +103,6 @@ For a broader understanding of reactive side effect management, these resources 
 
  **Next Step:** 
 
- Once you’re comfortable with side effects, check out **[performance optimization](link here)** to make your effects efficient and your app snappy.
+ Once you’re comfortable with side effects, check out **[performance optimization](http://localhost:3000/docs/advanced-guides/performance-optimization)** to make your effects efficient and your app snappy.
 
 

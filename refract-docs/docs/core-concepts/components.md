@@ -15,7 +15,8 @@ const Greeting = createComponent(({ lens }) => {
   return <h1>Hello, {name}!</h1>;
 });
 ```
-*↑ The simplest Refract component (try it in [our playground](https://play.refract.dev))*(link needed)
+↑ The simplest Refract component ([see Quick Start](/docs/getting-started/quick-start).
+
 
 ### Why Refract Components?
 
@@ -103,9 +104,9 @@ createComponent(() => {
 :::
 
 For optimization strategies:  
-➡️ [Performance Guide](/advanced-guides/performance-optimization)(link needed)
+➡️ [Performance Guide](http://localhost:3000/docs/advanced-guides/performance-optimization)
 
 ### Next Steps
-- 🧩 [Build a Counter App](http://localhost:3000/docs/tutorials/build-a-counter-app) (Beginner)  
-- 🎨 [Global Theme Switcher](/tutorials/global-theme-switcher) (Intermediate)(link, needed)  
-- ⚡ [Performance Tricks](/advanced-guides/performance-optimization) (Advanced)(link needed)
+-  [Build a Counter App](http://localhost:3000/docs/tutorials/build-a-counter-app) (Beginner)  
+-  [Global Theme Switcher](http://localhost:3000/docs/tutorials/global-theme-switcher) (Intermediate)  
+-  [Performance Tricks](http://localhost:3000/docs/advanced-guides/performance-optimization)(Advanced)

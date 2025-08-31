@@ -65,7 +65,6 @@ const config = {
       logo: { alt: 'Refract Logo', src: 'img/refract-logo.png' },
       items: [
         ...navbarFromSidebar.map((item) => ({ ...item, position: 'right' })),
-        { to: '/blog', label: 'Blog', position: 'right' },
         { href: 'https://github.com/Mike-4-prog/Refract', label: 'GitHub', position: 'right' },
         // Removed environment badge item to prevent crash
       ],
@@ -85,13 +84,11 @@ const config = {
           title: 'Community',
           items: [
             { label: 'Stack Overflow', href: 'https://stackoverflow.com/questions/tagged/refract' },
-            { label: 'Discord', href: 'https://discord.gg/example' },
           ],
         },
         {
           title: 'More',
           items: [
-            { label: 'Blog', to: '/blog' },
             { label: 'GitHub', href: 'https://github.com/Mike-4-prog/Refract' },
           ],
         },
@@ -102,6 +99,13 @@ const config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
       additionalLanguages: ['javascript', 'typescript', 'jsx'],
+    },
+    algolia: {
+      appId: 'CQ2MN6FP31', // ✅ Your App ID
+      apiKey: 'cf139e34e4812ee16d7d42f8a3fa6597', // ✅ Search-only API key
+      indexName: 'refract', // ✅ Your index name
+      contextualSearch: true,
+      insights: true,
     },
   },
 };
