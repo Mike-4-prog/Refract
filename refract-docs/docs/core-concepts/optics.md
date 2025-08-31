@@ -37,7 +37,7 @@ In Refract, optics come in different forms depending on how they interact with s
 | **Fold**         | Read multiple parts of state at once        | ✅    | ❌     |
 | **Traversal**    | Apply the same transformation to many items | ✅    | ✅     |
 
-💡 **Analogy:**  
+ **Analogy:**  
 - *Lens*: Zoom into one thing.  
 - *Prism*: Zoom into something that might be missing.  
 - *Fold*: Gather multiple pieces together.  

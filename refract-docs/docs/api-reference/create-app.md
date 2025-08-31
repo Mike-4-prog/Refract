@@ -219,8 +219,7 @@ Key takeaways from this example:
 ### Next Steps
 
 Now that you understand application initialization:
-- 🏗️ [Build your first app](http://localhost:3000/docs/tutorials/build-a-counter-app)
-- ⚙️ Explore [advanced configuration](/api-reference/create-app#advanced-options)(link needed)
-- 🚀 Learn [performance optimization](/advanced-guides/performance-optimization)(link needed)
+-  [Build your first app](http://localhost:3000/docs/tutorials/build-a-counter-app)
+-  Learn [performance optimization](http://localhost:3000/docs/advanced-guides/performance-optimization)
 
 Remember, `createApp` is just the beginning - your Refract journey starts here!

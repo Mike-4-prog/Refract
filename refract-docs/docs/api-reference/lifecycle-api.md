@@ -1,6 +1,6 @@
 ---
 title: Lifecycle API
-sidebar_label: lifecycle-api
+sidebar_label: Lifecycle API
 description: Learn how to run side effects and short-lived reactions in Refract components using useEffect and useFlash hooks.
 ---
 

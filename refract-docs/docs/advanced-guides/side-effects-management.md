@@ -76,8 +76,8 @@ Managing side effects can get tricky in larger applications. Here are some tips 
 4. **Isolate heavy operations**  
    Offload long-running tasks to background workers or asynchronous functions to avoid blocking the UI.
 
-:::note
-For performance-focused apps, refer to our **[Performance Optimization guide](links here)**, which includes tips for efficient effect management.
+:::info
+For performance-focused apps, refer to our **[Performance Optimization guide](http://localhost:3000/docs/advanced-guides/optical-composition-patterns)**, which includes tips for efficient effect management.
 :::
 
 ### Composing Effects
@@ -103,6 +103,6 @@ For a broader understanding of reactive side effect management, these resources 
 
  **Next Step:** 
 
- Once you’re comfortable with side effects, check out **[performance optimization](link here)** to make your effects efficient and your app snappy.
+ Once you’re comfortable with side effects, check out **[performance optimization](http://localhost:3000/docs/advanced-guides/performance-optimization)** to make your effects efficient and your app snappy.
 
 
