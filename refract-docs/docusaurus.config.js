@@ -46,7 +46,8 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/Mike-4-prog/Refract/edit/main/',
+          editUrl: 'https://github.com/Mike-4-prog/Refract/edit/main/refract-docs/',
+
         },
         blog: {
           showReadingTime: true,
