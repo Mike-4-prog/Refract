@@ -5,13 +5,42 @@ slug: /getting-started/introduction
 
 ### Welcome to Refract
 
-> "A new way to build reactive UIs — clear, declarative, and optics-powered."
+import Robot from '@site/static/img/refract-illustration.png';
 
-**[Refract](https://refract-stg.netlify.app/)** is a **reactive, composable, and refraction-based JavaScript framework** for building user interfaces with clarity and precision. Whether you're a seasoned React developer or just diving into the world of declarative UI design, Refract offers a refreshing take on modern frontend development.
+:::info Version: Production
+This is the latest documentation for **Refract**.  
+For experimental features, see the [Staging docs](https://refract-stg.netlify.app/).
+:::
+
+<div style={{
+  display: 'flex',
+  alignItems: 'center',
+  background: 'linear-gradient(135deg, #0bbbd6, #0d1f2d)',
+  color: 'white',
+  borderRadius: '10px',
+  padding: '1.5rem 2rem',
+  margin: '1.5rem 0'
+}}>
+  <div style={{flex: '0 0 180px', textAlign: 'center'}}>
+   <img src={Robot} alt="Refract robot" style={{maxWidth: '150px'}} />
+</div>
+  <div style={{flex: 1, marginLeft: '2rem', maxWidth: '70%'}}>
+    <h2 style={{marginBottom: '0.75rem', whiteSpace: 'nowrap'}}>
+    </h2>
+    <p style={{lineHeight: 1.5}}>
+      <strong>Refract</strong> is a reactive, composable, and optics-powered JavaScript framework 
+      for building user interfaces with precision. Whether you’re a seasoned React developer 
+      or exploring declarative UI design, Refract offers a refreshing take on frontend development.
+    </p>
+  </div>
+</div>
+
+
+> "A new way to build reactive UIs — clear, declarative, and optics-powered."
 
 ### Why Refract?
 
-**[Refract](https://refract-stg.netlify.app/)** is designed for developers who are tired of juggling complex state logic, boilerplate, and frameworks that get in the way of building. Imagine being able to focus on **what your app should do** rather than how to wire everything together.  
+**[Refract](https://refract-production.netlify.app/)** is designed for developers who are tired of juggling complex state logic, boilerplate, and frameworks that get in the way of building. Imagine being able to focus on **what your app should do** rather than how to wire everything together.  
 
 With Refract, you spend less time fighting your tools and more time creating clear, predictable, and scalable UIs. It’s not about reinventing the wheel—it’s about giving you a sharper, more flexible lens to build with.  
 
@@ -31,7 +60,7 @@ Refract is designed with a focus on modularity, reactivity, and developer experi
 
 #### Components
 
-In **[Refract](https://refract-stg.netlify.app/)**, components are created using `createComponent()`. Think of them like React components, but without the boilerplate:
+In **[Refract](https://refract-production.netlify.app/)**, components are created using `createComponent()`. Think of them like React components, but without the boilerplate:
 
 ```js
 import { createComponent } from 'refract';
